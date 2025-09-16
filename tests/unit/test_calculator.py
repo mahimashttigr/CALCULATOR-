@@ -10,7 +10,7 @@ class TestBasicOperations:
     
     def test_add_positive_numbers(self):
         """Test adding positive numbers"""
-        assert add(2, 3) == 5
+        assert add(7, 7) == 14
         assert add(10, 15) == 25
     
     def test_subtract_positive_numbers(self):
@@ -38,7 +38,7 @@ class TestMultiplyDivide:
  """Test multiplication and division operations"""
  def test_multiply_positive_numbers(self):
   """Test multiplying positive numbers"""
-  assert multiply(3, 4) == 12
+  assert multiply(3, 6) == 18
   assert multiply(7, 8) == 56
 
  def test_multiply_by_zero(self):
